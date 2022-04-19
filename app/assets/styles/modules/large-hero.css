@@ -1,0 +1,19 @@
+/*Two ways to position the image and text
+One way uses flex, the other uses absolute position.
+Absolute will ignore document flow and place it on top of the image.  Use the attributes top,botton,left, right
+Here width 100% tex-align will center horizonally  
+Transform moves it relative to itself, up half of its height */
+
+
+.large-hero {
+  position: relative;
+}
+
+.large-hero__text-content {
+  position: absolute;
+  top: 50%;
+  left 0;
+  transform: translateY (-50%);
+  width: 100%;
+  text-align: center;
+}

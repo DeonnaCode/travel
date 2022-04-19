@@ -1,0 +1,10 @@
+/* Import all modular CSS Files 
+Webpack and PostCSS
+Folders base modules*/
+
+/* NPM package normalize.css is imported first
+Adjusts the styles so rendered consistantly across browsers*/
+@import "normalize.css";
+
+@import "base/_global";
+@import "modules/_large-hero";
